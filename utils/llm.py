@@ -107,7 +107,7 @@ async def run_completion(
             contents=text_input,
             config=types.GenerateContentConfig(
                 thinking_config=types.ThinkingConfig(
-                    thinking_budget=128,
+                    thinking_budget=0,
                     # include_thoughts=True
                 ),
                 max_output_tokens=max_tokens,

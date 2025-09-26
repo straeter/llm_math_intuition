@@ -97,7 +97,7 @@ async def verify_all(model: str, limit: int = None):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', type=str, default="gemini-2.5-pro", help='Model to evaluate')
+    parser.add_argument('--model', type=str, default="gpt-5-mini", help='Model to evaluate')
     parser.add_argument('--limit', type=int, default=None,
                         help='Limit the number of responses to verify (especially for testing)')
     args = parser.parse_args()

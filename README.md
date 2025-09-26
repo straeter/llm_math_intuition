@@ -4,7 +4,7 @@ We test how well LLMs can solve mathematical problems adhoc (i.e. without any Co
 
 We use the Deepmind Mathematics Dataset to generate the problems.
 
-<img src="./static/preview.png" width="512"/><br/>
+<img src="./static/preview.png" width="768"/><br/>
 
 
 ## Installation
@@ -86,5 +86,8 @@ Question: Three letters picked without replacement from qqqkkklkqkkk. Give prob 
 Answer: 1/110
 ```
 
+## License
+
+This project is licensed under the MIT License.
 
 
