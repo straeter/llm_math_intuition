@@ -1,0 +1,9 @@
+python-dotenv
+instructor
+anthropic
+openai
+google-genai
+pydantic
+matplotlib
+streamlit
+git+https://github.com/google-deepmind/mathematics_dataset.git
